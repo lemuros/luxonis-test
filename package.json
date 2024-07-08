@@ -1,0 +1,21 @@
+{
+  "name": "a-game",
+  "version": "0.0.1",
+  "author": "Pavel Krajcovic",
+  "private": true,
+  "workspaces": [
+    "cli-client",
+    "server",
+    "common",
+    "spectator"
+  ],
+  "scripts": {
+    "cli-client": "npm run run -w cli-client",
+    "server": "npm run run -w server",
+    "spectator": "npm run run -w spectator"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2",
+    "ts-node": "^10.9.2"
+  }
+}

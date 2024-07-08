@@ -1,0 +1,17 @@
+{
+    "name": "cli-client",
+    "version": "0.0.1",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "run": "export XOR_KEY=xor && ts-node ./src/main.ts"
+    },
+    "dependencies": {
+        "common": "0.0.1",
+        "inquirer": "^9.2.23"
+    },
+    "devDependencies": {
+        "@types/inquirer": "^9.0.7",
+        "ts-node": "^10.9.2"
+    }
+}

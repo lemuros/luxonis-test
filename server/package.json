@@ -1,0 +1,17 @@
+{
+    "name": "server",
+    "version": "0.0.1",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "run": "export PASSWORD=pass && export API_KEY=akey && export XOR_KEY=xor && ts-node ./src/main.ts"
+    },
+    "dependencies": {
+        "common": "0.0.1",
+        "ws": "^8.17.1"
+    },
+    "devDependencies": {
+        "@types/ws": "^8.5.10",
+        "ts-node": "^10.9.2"
+    }
+}
